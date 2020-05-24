@@ -18,7 +18,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.provider.MediaStore;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 import android.util.Log;
 
 import java.io.BufferedOutputStream;

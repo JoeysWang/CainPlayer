@@ -2,12 +2,9 @@ package com.cgfay.cainplayer.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -16,7 +13,6 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
@@ -25,12 +21,9 @@ import android.widget.TextView;
 import com.cgfay.media.CainMediaMetadataRetriever;
 import com.cgfay.media.CainMediaPlayer;
 import com.cgfay.cainplayer.R;
-import com.cgfay.cainplayer.widget.AspectRatioLayout;
 import com.cgfay.media.CainMetadata;
 import com.cgfay.media.IMediaPlayer;
 import com.cgfay.utilslibrary.utils.StringUtils;
-
-import java.lang.ref.WeakReference;
 
 public class AVMediaPlayerActivity extends AppCompatActivity implements View.OnClickListener,
         SurfaceHolder.Callback, SeekBar.OnSeekBarChangeListener {

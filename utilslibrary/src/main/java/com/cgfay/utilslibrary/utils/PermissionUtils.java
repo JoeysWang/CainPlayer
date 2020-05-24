@@ -2,7 +2,7 @@ package com.cgfay.utilslibrary.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 /**
  * Created by cain on 17-7-22.
