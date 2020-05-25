@@ -74,7 +74,6 @@ public class AVMediaPlayerActivity extends AppCompatActivity implements View.OnC
 
         mImageCover = findViewById(R.id.iv_cover);
         mTextMetadata = findViewById(R.id.tv_metadata);
-
         mSurfaceView = (SurfaceView) findViewById(R.id.surfaceView);
         mSurfaceView.getHolder().addCallback(this);
         mSurfaceView.setOnTouchListener(new View.OnTouchListener() {

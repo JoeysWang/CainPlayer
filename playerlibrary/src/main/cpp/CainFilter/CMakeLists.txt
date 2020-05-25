@@ -29,48 +29,39 @@ add_library( cainfilter
         common/vecmath.cpp
 
         # 基础滤镜
-        filter/GL64LookupTableFilter.cpp
-        filter/GL512LookupTableFilter.cpp
-        filter/GLDepthFilter.cpp
-        filter/GLDepthMixFilter.cpp
-        filter/GLDrosteFilter.cpp
         filter/GLFilter.cpp
-        filter/GLGroupFilter.cpp
-        filter/GLGaussianBlurFilter.cpp
-        filter/GLGaussianPassBlurFilter.cpp
-        filter/GLIntensityFilter.cpp
 
         # 图片调节滤镜
-        filter/adjust/GLImageAdjustFilter.cpp
-        filter/adjust/GLBrightnessFilter.cpp
-        filter/adjust/GLContrastFilter.cpp
-        filter/adjust/GLExposureFilter.cpp
-        filter/adjust/GLHueFilter.cpp
-        filter/adjust/GLSaturationFilter.cpp
-        filter/adjust/GLSharpenFilter.cpp
+#        filter/adjust/GLImageAdjustFilter.cpp
+#        filter/adjust/GLBrightnessFilter.cpp
+#        filter/adjust/GLContrastFilter.cpp
+#        filter/adjust/GLExposureFilter.cpp
+#        filter/adjust/GLHueFilter.cpp
+#        filter/adjust/GLSaturationFilter.cpp
+#        filter/adjust/GLSharpenFilter.cpp
 
         # 美颜滤镜
-        filter/beauty/GLBeautyAdjustFilter.cpp
-        filter/beauty/GLBeautyBlurFilter.cpp
-        filter/beauty/GLBeautyFilter.cpp
-        filter/beauty/GLBeautyHighPassFilter.cpp
+#        filter/beauty/GLBeautyAdjustFilter.cpp
+#        filter/beauty/GLBeautyBlurFilter.cpp
+#        filter/beauty/GLBeautyFilter.cpp
+#        filter/beauty/GLBeautyHighPassFilter.cpp
 
         # 特效
         # 滤镜特效
-        filter/effect/GLEffectGlitterWhiteFilter.cpp
-        filter/effect/GLEffectIllusionFilter.cpp
-        filter/effect/GLEffectScaleFilter.cpp
-        filter/effect/GLEffectShakeFilter.cpp
-        filter/effect/GLEffectSoulStuffFilter.cpp
+#        filter/effect/GLEffectGlitterWhiteFilter.cpp
+#        filter/effect/GLEffectIllusionFilter.cpp
+#        filter/effect/GLEffectScaleFilter.cpp
+#        filter/effect/GLEffectShakeFilter.cpp
+#        filter/effect/GLEffectSoulStuffFilter.cpp
         # 分屏特效
-        filter/effect/GLFrameBlackWhiteThreeFilter.cpp
-        filter/effect/GLFrameBlurFilter.cpp
-        filter/effect/GLFrameBlurMixFilter.cpp
-        filter/effect/GLFrameTwoFilter.cpp
-        filter/effect/GLFrameThreeFilter.cpp
-        filter/effect/GLFrameFourFilter.cpp
-        filter/effect/GLFrameSixFilter.cpp
-        filter/effect/GLFrameNineFilter.cpp
+#        filter/effect/GLFrameBlackWhiteThreeFilter.cpp
+#        filter/effect/GLFrameBlurFilter.cpp
+#        filter/effect/GLFrameBlurMixFilter.cpp
+#        filter/effect/GLFrameTwoFilter.cpp
+#        filter/effect/GLFrameThreeFilter.cpp
+#        filter/effect/GLFrameFourFilter.cpp
+#        filter/effect/GLFrameSixFilter.cpp
+#        filter/effect/GLFrameNineFilter.cpp
 
         # 输入滤镜
         filter/input/GLInputFilter.cpp
